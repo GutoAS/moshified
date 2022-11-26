@@ -212,6 +212,18 @@ a {
   content: url(/images/easy.svg);
 }
 
+.computer__icon span {
+  content: url(/images/computer.svg);
+}
+
+.wordpress__icon span {
+  content: url(/images/wordpress.svg);
+}
+
+.clock__icon span {
+  content: url(/images/clock.svg);
+}
+
 /* Buttons */
 
 .btn {
@@ -796,6 +808,10 @@ a {
   margin: 12rem 0;
 }
 
+.feature:first-of-type {
+  margin-top: 6rem;
+}
+
 .feature__heading {
   margin: 1rem 0;
 }
@@ -804,13 +820,9 @@ a {
   width: 100%;
 }
 
-.feature:first-of-type {
-  margin-top: 6rem;
-}
-
 @media screen and (min-width: 768px) {
   .feature:nth-of-type(even) .feature__content {
-    order: 2;
+    order: 1;
   }
 }
 
