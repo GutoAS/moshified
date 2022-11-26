@@ -224,6 +224,14 @@ a {
   content: url(/images/clock.svg);
 }
 
+.growth__icon span {
+  content: url(/images/growth.svg);
+}
+
+.snap__icon span {
+  content: url(/images/snap.svg);
+}
+
 /* Buttons */
 
 .btn {
