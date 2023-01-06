@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
       content="Uma empresa falça criada por Agostinho Soberano"
@@ -23,9 +23,9 @@
 
     <header>
       <nav class="nav collapsible">
-        <a class="nav__brand" href="/"></a>
+        <a class="nav__brand" href="/"><img src="images/logo.svg" alt="" /></a>
         <svg class="icon icon--white nav__toggler">
-          <use xlink:href="/images/sprite.svg#menu"></use>
+          <use href="images/sprite.svg#menu"></use>
         </svg>
         <ul class="list nav__list collapsible__content">
           <li class="nav__item"><a href="#">Hosting</a></li>
@@ -41,15 +41,15 @@
     <section class="block block--dark block--skewed-left hero">
       <div class="container grid grid--1x2">
         <header class="block__header hero__content">
-          <h1 data-aos="fade-right" class="block__heading">
-            Cloud Hosting For Pros
-          </h1>
+          <div data-aos="fade-right">
+            <h1 class="block__heading">Cloud Hosting For Pros</h1>
+          </div>
           <p class="hero__tagline">
             Deploy your websites in less than 60 seconds.
           </p>
           <a href="#" class="btn btn--accent btn-stretched">GET STARTED</a>
         </header>
-        <picture data-aos="zoom-in">
+        <picture>
           <source
             type="image/webp"
             srcset="images/banner.webp 1x, images/banner@2x.webp 2x" />
@@ -63,14 +63,16 @@
 
     <!-- DOMAIN BLOCK SECTION -->
 
-    <section data-aos="fade-up" class="block container block-domain">
-      <header class="block__header">
-        <h2>Starting at $9 per month</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias,
-          consectetur.
-        </p>
-      </header>
+    <section class="block container block-domain">
+      <div data-aos="zoom-in">
+        <header class="block__header">
+          <h2>Starting at $9 per month</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias,
+            consectetur.
+          </p>
+        </header>
+      </div>
       <div class="input-group">
         <input
           type="text"
@@ -79,7 +81,7 @@
         />
         <button class="btn btn--accent">
           <svg class="icon icon--white">
-            <use xlink:href="/images/sprite.svg#search"></use>
+            <use href="images/sprite.svg#search"></use>
           </svg>
           <!-- fix -->
           Search
@@ -97,7 +99,7 @@
 
     <!-- PLANS BLOCK -->
 
-    <section data-aos="fade-up" class="block container block-plans">
+    <section class="block container block-plans">
       <div class="grid grid--1x3">
         <div class="plan">
           <div class="card card--secondary">
@@ -175,7 +177,7 @@
         </p>
       </header>
       <article class="grid grid--1x2 feature">
-        <div class="feature__content" data-aos="fade-right">
+        <div class="feature__content">
           <span class="icon-container easy__icon">
             <span class="icon icon--primary"></span>
           </span>
@@ -187,7 +189,8 @@
           </p>
           <a href="#" class="link-arrow">Learn More</a>
         </div>
-        <picture data-aos="zoom-in-left">
+
+        <picture>
           <source
             type="image/webp"
             srcset="images/easy.webp 1x, images/easy@2x.webp 2x" />
@@ -213,6 +216,7 @@
           </p>
           <a href="#" class="link-arrow">Learn More</a>
         </div>
+
         <picture>
           <source
             type="image/webp"
@@ -239,6 +243,7 @@
           </p>
           <a href="#" class="link-arrow">Learn More</a>
         </div>
+
         <picture>
           <source
             type="image/webp"
@@ -265,6 +270,7 @@
           </p>
           <a href="#" class="link-arrow">Learn More</a>
         </div>
+
         <picture>
           <source
             type="image/webp"
@@ -284,7 +290,7 @@
         <h2>User-friendly Control Panel</h2>
       </header>
       <div class="container grid grid--1x2">
-        <picture data-aos="fade-right" class="block-showcase__image">
+        <picture class="block-showcase__image">
           <source
             type="image/webp"
             srcset="images/ipad.webp 1x, images/ipad@2x.webp 2x" />
@@ -293,7 +299,8 @@
             srcset="images/ipad.png 1x, images/ipad@2x.png 2x" />
           <img src="images/ipad.png" alt=""
         /></picture>
-        <ul class="list" data-aos="fade-up">
+
+        <ul class="list">
           <li>
             <div class="media">
               <div class="media__image">
@@ -351,7 +358,7 @@
 
     <!-- TESTIMONIALS SECTION -->
 
-    <section class="block" data-aos="zoom-in">
+    <section class="block">
       <header class="block__header">
         <h2>What our Costumers are Saying</h2>
         <p>
@@ -359,6 +366,7 @@
           aperiam.
         </p>
       </header>
+
       <div class="container">
         <div class="card testimonial">
           <div class="grid grid--1x2">
@@ -370,6 +378,7 @@
                 </span>
               </span>
             </div>
+
             <blockquote class="quote">
               <p class="quote__text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -380,7 +389,7 @@
                 <div class="media">
                   <div class="media__image">
                     <svg class="icon icon--primary quote__line">
-                      <use xlink:href="../images/sprite.svg#line"></use>
+                      <use href="images/sprite.svg#line"></use>
                     </svg>
                   </div>
                   <div class="media__body">
